@@ -1,0 +1,143 @@
+input {
+    width: 90%;
+    display: block;
+    background-color: #5f5c5c42;
+    border-radius: 8px;
+    border-style: none;
+    border: 1px solid rgb(194, 191, 191);
+    height: 10%;
+    font-family: 'IBM Plex Serif', serif;
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.3s;
+    padding-left: 3%;
+    font-size: 1em;
+    
+    
+
+}
+
+input:focus {
+    outline: none;
+
+}
+
+#output:hover {
+    cursor: pointer;
+    color: #42a3c0;
+    transition: 0.3s;
+   
+}
+
+input:hover {
+    -webkit-box-shadow: 1px 5px 10px 1px #a7a4a4; 
+box-shadow: 1px 5px 10px 1px #9e9c9c;
+}
+
+
+body{
+    display: flex;
+    font-family: 'IBM Plex Serif', serif;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    color: rgba(240, 255, 255, 0.897);
+}
+
+input::placeholder {
+    font-family: 'IBM Plex Serif', serif;
+    margin-left: 20px;
+}
+
+
+html {
+    background-image: linear-gradient(to bottom, #22b0a3, #00a9c8, #009def, #0086ff, #8f5cee);
+}
+
+
+main {
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: #1b262c;
+    border-radius: 10px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items:center;    
+    justify-content: space-evenly;
+    height: 50%;
+    text-align: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
+
+
+
+
+  @media (max-width: 575.98px) { 
+    h1 {
+        font-size: 9px;
+    }
+    main {
+        width: 100%;
+        height: 60%;
+    }
+
+}
+
+@media (max-width: 767.98px) { 
+    h1 {
+        font-size: 0.2em;
+    }
+    main {
+        width: 98%;
+        height: 65%;
+    }
+
+}
+  
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size:0.5em;
+    }
+
+    main {
+        width: 70%;
+    }
+
+    
+}
+
+@media (max-width: 1199.98px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    
+}
+  
